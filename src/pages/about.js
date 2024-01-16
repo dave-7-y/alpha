@@ -1,5 +1,6 @@
-import * as React from "react";
-import Layout from "../components/layout";
+import * as React from "react"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
 
 const AboutPage = () => {
   return (
@@ -11,10 +12,7 @@ const AboutPage = () => {
 
 export const Head = () => {
   return (
-    <>
-      <title>About Me</title>
-      <meta name="purpose" content="learn" />
-    </>
+    <Seo title="About"/>
   );
 };
 
